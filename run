@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+tsc
+time node build/index.js "$1" "$2"
